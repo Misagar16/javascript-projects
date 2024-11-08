@@ -5,7 +5,7 @@ body{
     overflow: hidden;
 }
 span{
-    background: url(https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_55-256.png);
+    background: url(https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png);
     width: 100px;
     height: 100px;
     position: absolute;
@@ -28,4 +28,12 @@ span{
         filter: hue-rotate(720deg);
 
     }
+}
+#mor{
+    
+    color:rgba(176, 242, 9, 0.976);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
