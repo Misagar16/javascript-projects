@@ -8,6 +8,7 @@ updatetxt();
 function updatetxt(){
     characteridx++;
     containerEl.innerHTML = `<h1>I AM ${careers[careerInx].slice(0,1) === "I" ? "AN": "A"} ${careers[careerInx].slice(0,characteridx)}</h1>`;
+    
 
     if(characteridx === careers[careerInx].length){
         careerInx++;
