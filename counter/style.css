@@ -1,0 +1,21 @@
+body{
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+    
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    cursor: pointer;
+    transition: backgound-color 0.3s ease;
+    margin: 1rem;
+    color: white;
+}
+.btn:hover{
+    background-color: #333;
+}
